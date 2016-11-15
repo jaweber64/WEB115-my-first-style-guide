@@ -1,0 +1,169 @@
+
+/* font families (for reference)
+font-family: 'Tillana', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Boogaloo', cursive;
+*/
+
+/* variables */
+// COLOURlovers.com - Blown Entrepreneur palette
+$dkblue :rgb(68,116,157);    // Corporate Cobalt #44749D
+$ltblue :rgb(198,212,225);   // light blue #C6D4E1
+$white :rgb(255,255,255);    // white #FFFFFF
+$ltbeige :rgb(235,231,224);  // So Sleepy #EBE7E0
+$dkbeige: rgb(189,184,173);  // Corporate Bay #BDB8AD
+
+//  Accent colors I picked myself
+$dksalmon: rgb(255, 102, 102); //rgb(255, 127, 163);
+$ltsalmon: rgb(255, 204, 204); //rgb(255, 196, 212);
+
+//  Neutral colors for text and such
+$grey :rgb(179, 181, 183);
+$charcoal :rgb(90, 93, 99);
+
+body{
+  font-family: 'Tillana', cursive;
+  color: $charcoal;
+}
+
+h1{
+  font-size: 3em;
+  font-family: 'Bangers', cursive;
+  color:$charcoal;
+}
+h2 {
+  font-size: 2.25em;
+  font-family: 'Bangers', cursive;
+  color: $dkblue;
+  .darkType {
+    background-color: $dkblue;
+    color: white;
+    padding: .25em;
+  }
+}
+.subhead {color: $charcoal;}
+
+h3 {
+  font-size: 1.75em;
+  font-family: 'Boogaloo', cursive;
+  color: $dkbeige;
+  .darkType {
+    background-color: $dkbeige;
+    color: white;
+    padding: .25em;
+  }
+}
+
+h4{
+  font-size: 1.5em;
+  font-family: 'Boogaloo', cursive;
+  color:$dksalmon;
+}
+
+h5{
+  font-size: 1.25em;
+  font-family: 'Boogaloo', cursive;
+  color:$ltblue;
+}
+
+h6{
+  font-size: 1.25em;
+  font-family: 'Boogaloo', cursive;
+  color:$ltsalmon;
+  font-style:italic;
+}
+
+p .darkType {background-color: $dksalmon;
+    color: $white;
+    padding: .25em;
+    font-size: 1.5em;}
+
+p.boogaloo {font-family: 'Boogaloo', cursive;}
+
+.header h3 {color: $charcoal;}
+
+hr {  border-style: solid;
+  border-color: $ltbeige;
+  opacity: .75;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.container {
+  max-width: 1060px;
+  padding: 2em;
+  margin: 10px auto;
+  background: white;
+  border-radius: 35px;
+  border-width: 5px;}
+
+.footer {
+  margin: 1px auto;
+  background: white;
+  width: 25%;
+  text-align: center;
+}
+
+.labels {
+  font-family: 'Bangers', cursive;
+  font-size: 1em;
+  padding: 2px 15px;
+  font-weight:400;
+  color:$grey;
+}
+ /*  #colors is the entire div */
+.colors {
+  width: 100%;
+  margin: 5px auto;
+}
+
+/* The following css applies to all 5 swatches */
+#color1,
+#color2,
+#color3,
+#color4,
+#color5,
+#color6,
+#color7{
+  height: 100px;
+  width: 150px;
+  float: left;
+  border-radius: 5px;
+  margin: 20px;
+  h2 {
+    font-size: 1.25em;
+    text-align:center;
+  }
+}
+
+/* The following css applies individually to each swatch */
+#color1 {
+  background: $dkblue;
+  h2{color: $white;}
+}
+#color2 {
+  background: $ltblue;
+  h2{color: $dkblue;}
+}
+#color3 {
+  background: $white;
+  color: $dkblue;
+  border: 2px solid $dkblue;
+  h2{color: $dkblue;}
+}
+#color4 {
+  background: $ltbeige;
+  h2{color: $dkbeige;}
+}
+#color5 {
+  background: $dkbeige;
+  h2{color: $white;}
+}
+#color6 {
+  background: $dksalmon;
+  h2{color: $white;}
+}
+#color7 {
+  background: $ltsalmon;
+  h2{color: $dksalmon;}
+}

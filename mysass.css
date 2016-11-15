@@ -1,0 +1,159 @@
+/* font families (for reference)
+font-family: 'Tillana', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Boogaloo', cursive;
+*/
+/* variables */
+body {
+  font-family: 'Tillana', cursive;
+  color: #5a5d63; }
+
+h1 {
+  font-size: 3em;
+  font-family: 'Bangers', cursive;
+  color: #5a5d63; }
+
+h2 {
+  font-size: 2.25em;
+  font-family: 'Bangers', cursive;
+  color: #44749d; }
+  h2 .darkType {
+    background-color: #44749d;
+    color: white;
+    padding: .25em; }
+
+.subhead {
+  color: #5a5d63; }
+
+h3 {
+  font-size: 1.75em;
+  font-family: 'Boogaloo', cursive;
+  color: #bdb8ad; }
+  h3 .darkType {
+    background-color: #bdb8ad;
+    color: white;
+    padding: .25em; }
+
+h4 {
+  font-size: 1.5em;
+  font-family: 'Boogaloo', cursive;
+  color: #ff6666; }
+
+h5 {
+  font-size: 1.25em;
+  font-family: 'Boogaloo', cursive;
+  color: #c6d4e1; }
+
+h6 {
+  font-size: 1.25em;
+  font-family: 'Boogaloo', cursive;
+  color: #ffcccc;
+  font-style: italic; }
+
+p .darkType {
+  background-color: #ff6666;
+  color: white;
+  padding: .25em;
+  font-size: 1.5em; }
+
+p.boogaloo {
+  font-family: 'Boogaloo', cursive; }
+
+.header h3 {
+  color: #5a5d63; }
+
+hr {
+  border-style: solid;
+  border-color: #ebe7e0;
+  opacity: .75;
+  margin-top: 3em;
+  margin-bottom: 2em; }
+
+.container {
+  max-width: 1060px;
+  padding: 2em;
+  margin: 10px auto;
+  background: white;
+  border-radius: 35px;
+  border-width: 5px; }
+
+.footer {
+  margin: 1px auto;
+  background: white;
+  width: 25%;
+  text-align: center; }
+
+.labels {
+  font-family: 'Bangers', cursive;
+  font-size: 1em;
+  padding: 2px 15px;
+  font-weight: 400;
+  color: #b3b5b7; }
+
+/*  #colors is the entire div */
+.colors {
+  width: 100%;
+  margin: 5px auto; }
+
+/* The following css applies to all 5 swatches */
+#color1,
+#color2,
+#color3,
+#color4,
+#color5,
+#color6,
+#color7 {
+  height: 100px;
+  width: 150px;
+  float: left;
+  border-radius: 5px;
+  margin: 20px; }
+  #color1 h2,
+  #color2 h2,
+  #color3 h2,
+  #color4 h2,
+  #color5 h2,
+  #color6 h2,
+  #color7 h2 {
+    font-size: 1.25em;
+    text-align: center; }
+
+/* The following css applies individually to each swatch */
+#color1 {
+  background: #44749d; }
+  #color1 h2 {
+    color: white; }
+
+#color2 {
+  background: #c6d4e1; }
+  #color2 h2 {
+    color: #44749d; }
+
+#color3 {
+  background: white;
+  color: #44749d;
+  border: 2px solid #44749d; }
+  #color3 h2 {
+    color: #44749d; }
+
+#color4 {
+  background: #ebe7e0; }
+  #color4 h2 {
+    color: #bdb8ad; }
+
+#color5 {
+  background: #bdb8ad; }
+  #color5 h2 {
+    color: white; }
+
+#color6 {
+  background: #ff6666; }
+  #color6 h2 {
+    color: white; }
+
+#color7 {
+  background: #ffcccc; }
+  #color7 h2 {
+    color: #ff6666; }
+
+/*# sourceMappingURL=mysass.css.map */
